@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Olha Chernova](https://up.htmlacademy.ru/htmlcss/24/user/626531).
-* Наставник: `Неизвестно`.
+* Наставник: [Egor Glebov](https://htmlacademy.ru/profile/beast).
 
 ---
 
