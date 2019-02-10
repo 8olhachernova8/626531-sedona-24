@@ -21,8 +21,10 @@
             <a class="site-navigation-link" href="contacts.html">Гостиницы</a>
           </li>
         </ul>
-        <img src="logo.png" width="140" height="72" alt="logo">
-        <img src="welcome.png" width="459" height="353" alt="welcome">
+
+        <a class="site-navigation-logo">
+          <img src="logo.png" width="140" height="72" alt="logo" />
+        </a>
       </nav>
     </header>
     <main class="main">
@@ -44,45 +46,64 @@
         </p>
       </div>
     </main>
+
     <p class="search-table">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</p>
     <div class="half-width">
-      <label>ДАТА ЗАЕЗДА</label><input type="date" name="arrival"></label>
+      <label>
+        ДАТА ЗАЕЗДА
+        <input type="date" name="arrival" />
+      </label>
     </div>
     <div class="divclass">
-      <label>ДАТА ВЫЕЗДА</label><input type="date" name="departure"></label> 
-      <input type="submit" value="НАЙТИ">
+      <label>
+        ДАТА ВЫЕЗДА
+        <input type="date" name="departure" />
+      </label>
     </div>
-<div class="quantity-dults">
-  <label>ВЗРОСЛЫЕ:</label><button>-</button><input type="text" name="children"><button>+</button>
-</div>
-<div class="quantity-children">
-  <label>ДЕТИ:</label><button>-</button><input type="text" name="adults"><button>+</button>
-</div>
+    <div class="quantity-dults">
+      <label for="adults">ВЗРОСЛЫЕ:</label>
+      <button>-</button>
+      <input id="adults" type="number" name="adults" />
+      <button>+</button>
+    </div>
+    <div class="quantity-children">
+      <label for="children">ДЕТИ:</label>
+      <button>-</button>
+      <input id="children" type="number" name="children" />
+      <button>+</button>
+    </div>
+    <input type="submit" value="НАЙТИ" />
+
     <footer class="main-footer">
       <span class="main-footer-contacts">#VISITSEDONA</span>
       <ul class="main-footer-social">
         <li class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-           <img src="twitter.svg" width="17" height="15" alt="twitter">
-           twitter 
+            <img src="twitter.svg" width="17" height="15" alt="twitter" />
+            twitter
           </a>
         </li>
         <li class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-           <img src="fb-icon.svg" width="12" height="22" alt="facebook">
-           facebook
+            <img src="fb-icon.svg" width="12" height="22" alt="facebook" />
+            facebook
           </a>
         </li>
         <li class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-           <img src="youtube.svg" width="20" height="16" alt="youtube">
-           youtube
+            <img src="youtube.svg" width="20" height="16" alt="youtube" />
+            youtube
           </a>
-        </li> 
+        </li>
       </ul>
       <p class="footer-copyright">
         <span class="footer-copyright-text">WEBSITE BY</span>
-        <img src="logo-htmlacademy.svg" width="115" height="41" alt="logo-htmlacademy">
+        <img
+          src="logo-htmlacademy.svg"
+          width="115"
+          height="41"
+          alt="logo-htmlacademy"
+        />
         <a class="footer-copyright-link" href="https://htmlacademy.ru">
           <img src="" alt="HTML Academy" class="footer-copyright-img" />
         </a>
