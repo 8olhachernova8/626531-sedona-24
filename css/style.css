@@ -1,9 +1,238 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  font-size: 14;
+  list-style: height 26px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  
+  background-color: #ffffff;
+}
+
+/* .main-header - start */
 .main-header {
-  background-color: #9c5c5c;
+  border: 1px solid red;
 }
+
+.main-navigation {
+  border: 2px dotted green;
+}
+
 .site-navigation {
-  background-color: blueviolet;
+  display: flex;
+  
 }
-.main-info {
-  background-color: #35985;
+
+.site-navigation-item {
+  list-style: none;
 }
+
+.site-navigation-link {
+  color: #000000;
+  text-decoration: none;
+  padding-top: 22;
+  padiding-bottom
+}
+
+.logo {
+  width: 140px;
+  height: 71px;
+  object-fit: contain;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.site-navigation-logo {
+  width: 459px;
+  height: 353px;
+  object-fit: contain;
+}
+
+/* .main-header - end */
+
+/* main - start */
+
+.main-tittle {
+  width: 440px;
+  height: 48px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.main-text {
+  width: 489px;
+  height: 13px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.main-title-other {
+  width: 434px;
+  height: 96px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #333333;
+}
+
+.main-text {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000000;
+}
+
+/* main - end */
+
+/* form - start */
+
+.search-table {
+  width: 289px;
+  height: 18px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.half-width {
+  width: 91px;
+  height: 12px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.divclass {
+  width: 95px;
+  height: 12px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.quantity-dults {
+  width: 71px;
+  height: 11px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+.quantity-children {
+  width: 38px;
+  height: 12px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+
+/* form - end */
+
+/* main-footer - start */
+
+.main-footer-contacts {
+  width: 136px;
+  height: 16px;
+  font-family: PTSans;
+  font-size: 21px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.main-footer-social-link {
+  width: 46px;
+  height: 48px;
+  background-color: #81b3d2;
+}
+
+.footer-copyright-text {
+  width: 74px;
+  height: 11px;
+  font-family: PTSans;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.86;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+/* main-footer - end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
