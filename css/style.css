@@ -2,38 +2,53 @@ body {
   margin: 0;
   padding: 0;
   font-family: "PT Sans", sans-serif;
-  font-size: 14;
-  list-style: height 26px;
+  font-size: 14px;
+  list-style: none;
+  height 26px;
   font-weight: bold;
   color: #000000;
   text-transform: uppercase;
-  
   background-color: #ffffff;
 }
 
 /* .main-header - start */
-.main-header {
-  border: 1px solid red;
-}
 
-.main-navigation {
-  border: 2px dotted green;
-}
 
 .site-navigation {
+  margin: 0;
+  padding: 0; 
   display: flex;
-  
 }
 
 .site-navigation-item {
   list-style: none;
+  width: 20%;
+  padding: 22px 55px;;
+  }
+
+.welcome-logo {
+  display: inline-block;
+  width: 100%;
+  height: 773px;
+  object-fit: contain;
+  background-size: cover;
+  background-image: url('background-photo.png');
+}
+
+.welcome-logo:after {
+    content: url(welcome.svg);
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    top: 50px;
+    z-index: 9999999;
 }
 
 .site-navigation-link {
   color: #000000;
   text-decoration: none;
   padding-top: 22;
-  padiding-bottom
 }
 
 .logo {
@@ -42,65 +57,61 @@ body {
   object-fit: contain;
 }
 
+.site-logo{
+  list-style: none;
+  width: 20%;
+}
+
 
 a {
   text-decoration: none;
 }
 
 .site-navigation-logo {
-  width: 459px;
-  height: 353px;
-  object-fit: contain;
+  display: flex;
+  justify-content: center;
+}
+
+.site-navigation-logo img{
+  position: absolute;
 }
 
 /* .main-header - end */
 
 /* main - start */
 
-.main-tittle {
-  width: 440px;
+.main-title {
   height: 48px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
   color: #000000;
 }
 
-.main-text {
+.main-text-5 {
+  white-space: nowrap;
+  margin: auto;
+  padding:
   width: 489px;
   height: 13px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.86;
-  letter-spacing: normal;
-  text-align: center;
   color: #333333;
 }
 
 .main-title-other {
-  width: 434px;
-  height: 96px;
-  font-family: PTSans;
-  font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.71;
-  letter-spacing: normal;
-  text-align: center;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 30px;
   color: #333333;
+  line-height: 1.71;
+  text-align: center;
 }
 
 .main-text {
-  font-size: 30px;
+  font-size: 13px;
   font-weight: bold;
   line-height: 1.2;
   color: #000000;
@@ -110,129 +121,160 @@ a {
 
 /* form - start */
 
+.form{
+  height: 410px;
+  display: grid;
+  margin: 0 auto;
+}
+
 .search-table {
-  width: 289px;
-  height: 18px;
-  font-family: PTSans;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 86px;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
   color: #ffffff;
+  background-color: #766357;
 }
 
 .half-width {
-  width: 91px;
-  height: 12px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
   text-align: left;
   color: #000000;
 }
 
 .divclass {
-  width: 95px;
-  height: 12px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
   text-align: left;
   color: #000000;
 }
 
+.people-info{
+  display: flex;
+}
+
+#adults, #children {
+    width: 20px;
+    border: 1px solid gray;
+    background: #f2f2f2;
+}
+
 .quantity-dults {
-  width: 71px;
-  height: 11px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
   text-align: left;
   color: #000000;
 }
 
 .quantity-children {
-  width: 38px;
-  height: 12px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.86;
-  letter-spacing: normal;
   text-align: left;
   color: #000000;
+}
+
+.input-date{
+  width: 78%;
+  float: right;
 }
 
 /* form - end */
 
 /* main-footer - start */
+.main-footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+  border-top: 1px solid; 
+}
 
 .main-footer-contacts {
   width: 136px;
   height: 16px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 21px;
   font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.24;
-  letter-spacing: normal;
-  text-align: center;
   color: #000000;
 }
 
-.main-footer-social-link {
-  width: 46px;
-  height: 48px;
-  background-color: #81b3d2;
+.main-footer-social{
+  text-align: center
+}
+
+.main-footer-social-link{
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-footer-social-button{
+  list-style: none;
+  display: inline-block;
+}
+
+.main-footer-social-link .fa {
+    background-color: #81b3d2;
+    color: #FFF;
+    padding: 10px;
 }
 
 .footer-copyright-text {
   width: 74px;
   height: 11px;
-  font-family: PTSans;
+  font-family: 'PT Sans', sans-serif;
   font-size: 14px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
   line-height: 1.86;
-  letter-spacing: normal;
-  text-align: center;
   color: #000000;
 }
+
+.footer-copyright-link {
+  width: 115px;
+  height: 41px;
+  object-fit: contain;
+}
+
 
 /* main-footer - end */
 
 
+.w-50{
+  width: 50%;
+}
 
+.w-30{
+  width: 30%;
+}
 
+.w-70{
+  width: 70%;
+}
 
+form {
+  width: 568px;
+  margin: 0 auto;
+  padding: 20px;
 
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
+}
+  .send-button{
+    width: 458px;
+    height: 58px;
+    background-color: #81b3d2;
+    color: #FFF;
+    border: none;
+    font-size: 1.35em;
+  }
 
-
-
-
-
-
-
-
-
-
-
+  .text-center{
+    text-align: center;
+  }

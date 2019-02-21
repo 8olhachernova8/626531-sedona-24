@@ -4,10 +4,8 @@
     <meta charset="utf-8" />
     <title>Логотип седоны</title>
     <link href="css/style.css" rel="stylesheet" />
-    <link
-      href="https://fonts.googleapis.com/css?family=PT+Sans:400,700"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -26,6 +24,11 @@
           <li class="site-navigation-item">
             <a class="site-navigation-link" href="news.html">Фото и видео</a>
           </li>
+          <li class="site-logo">
+            <a class="site-navigation-logo">
+              <img src="logo.png"  alt="logo" />
+            </a>
+          </li>
           <li class="site-navigation-item col-12 col-sm-10 col-md-6 col-lg-2">
             <a class="site-navigation-link" href="price.html">Карта штата</a>
           </li>
@@ -33,10 +36,6 @@
             <a class="site-navigation-link" href="contacts.html">Гостиницы</a>
           </li>
         </ul>
-
-        <a class="site-navigation-logo">
-          <img src="logo.png" width="140" height="72" alt="logo" />
-        </a>
       </nav>
     </header>
 
@@ -44,55 +43,63 @@
 
 
     <main class="main">
+      <div class="welcome-logo"></div> 
       <div class="main-info">
-        <p class="main-title">
-          СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ, ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
+        <p class="main-title text-center">
+          СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,<br/> ЗАСЛУЖИВАЮЩИЙ БОЛЬШЕГО!
         </p>
-        <p class="main-text">
+        <p class="main-text-5 text-center">
           РАССМОТРИМ 5 ПРИЧИН, ПО КОТОРЫМ СЕДОНА КРУЧЕ ЧЕМ ГРАНД КАНЬОН!
         </p>
       </div>
-      <div class="main-offer">
+      <div class="main-offer text-center">
         <b class="main-title-other">
           ЗАИНТЕРЕСОВАЛИСЬ?
         </b>
-        <p class="main-text">
-          УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ПОЕЗДКИ, И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ
+        <p class="main-text text-center">
+          УКАЖИТЕ ПРЕДПОЛОГАЕМЫЕ ПОЕЗДКИ, <br /> И МЫ ПОКАЖЕМ ВАМ ЛУЧШИЕ ПРЕДЛОЖЕНИЯ
           ГОСТИНИЦ В СЕДОНЕ
         </p>
       </div>
     </main>
 
-
-
+    
+    <form action="/echo" method="post">
     <div class="form">
-      <p class="search-table">
-        ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
-      </p>
+      <form action="/echo" method="post">
+        <p class="search-table text-center">
+          ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
+        </p>
+      </form>
       <div class="half-width">
         <label>
           ДАТА ЗАЕЗДА
-          <input type="date" name="arrival" />
+          <input type="date" name="arrival" class="input-date" />
         </label>
       </div>
       <div class="divclass">
         <label>
           ДАТА ВЫЕЗДА
-          <input type="date" name="departure" />
+          <input type="date" name="departure" class="input-date" />
         </label>
       </div>
-      <div class="quantity-dults">
+      <div class="people-info">
+      <div class="quantity-dults w-50">
         <label for="adults">ВЗРОСЛЫЕ:</label>
         <button>-</button>
         <input id="adults" type="number" name="adults" />
         <button>+</button>
       </div>
-      <div class="quantity-children">
-        <label for="children">ДЕТИ:</label>
+      <div class="quantity-children w-50">
+        <label for="children" class="w-50">ДЕТИ:</label>
         <button>-</button>
-        <input id="children" type="number" name="children" />
+        <input id="children" type="number" name="children" class="w-50" />
+        <button>+</button>
       </div>
-      <button>type="submit" value="НАЙТИ"</button>
+      </div>
+      <div class="text-center">
+        <button type="submit" value="" class="send-button">НАЙТИ</button>
+      </div>
     </div>
     
 
@@ -100,35 +107,32 @@
 
 
     <footer class="main-footer">
-      <span class="main-footer-contacts">#VISITSEDONA</span>
+      <span class="main-footer-contacts text-center">#VISITSEDONA</span>
       <ul class="main-footer-social">
         <li class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-            <img src="twitter.svg" width="17" height="15" alt="twitter" />
-            twitter
+            <i class="fa fa-twitter" aria-hidden="true"></i>
           </a>
         </li>
         <li class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-            <img src="fb-icon.svg" width="12" height="22" alt="facebook" />
-            facebook
+            <i class="fa fa-facebook" aria-hidden="true"></i>
           </a>
         </li>
         <l i class="main-footer-social-button">
           <a class="main-footer-social-link" href="#">
-            <img src="youtube.svg" width="20" height="16" alt="youtube" />
-            youtube
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
           </a>
         </li>
       </ul>
       <p class="footer-copyright">
-        <span class="footer-copyright-text">WEBSITE BY</span>
+        <span class="footer-copyright-text text-center">WEBSITE BY</span>
         <a
           class="footer-copyright-link"
           href="https://htmlacademy.ru/intensive/htmlcss"
         >
           <img
-            src="logo-htmlacademy.svg"
+            src="logo-name.svg"
             width="115"
             height="41"
             alt="logo-htmlacademy"
@@ -136,6 +140,8 @@
         </a>
       </p>
     </footer>
+
+<form action="/echo" method="post"></form>
 
 
 
