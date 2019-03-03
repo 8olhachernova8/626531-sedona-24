@@ -266,7 +266,7 @@ form {
   border-radius: 10px;
   box-shadow: 0 0 10px #cccccc;
 }
-  .send-button{
+  .send-button {
     width: 458px;
     height: 58px;
     background-color: #81b3d2;
@@ -275,8 +275,131 @@ form {
     font-size: 1.35em;
   }
 
-  .text-center{
-    text-align: center;
-  }
+.send-button:hover {
+background-color: #669ec0;
+cursor: pointer;
+}
+
+.send-button:active {
+background-color: #5496bd;
+color: rgba(255, 255, 255, 0.3);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.catalog-list {
+  
+}
+
+.catalog-item{
+  display: flex;
+  padding: 30px 72px;
+
+  
+}
+.catalog-item-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+flex-grow: 1;
+flex-direction: column;
+}
+
+.catalog-item-title {
+margin: 0;
+}
+
+.catalog-item-title-link {
+color: #000000;
+}
+
+.catalog-item-title-link:hover {
+color: #81b3d2;
+}
+
+.catalog-item-title-link:active {
+opacity: 0.3;
+}
+
+.catalog-item-info-column-link {
+  background-color: #81b3d2;
+  padding: 8px 17px;
+  color: #ffffff;
+}
+
+.catalog-item-info-column-link:hover {
+  background-color: #669ec0;
+}
+
+.catalog-item-info-column-link:active {
+  background-color: #5496bd;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.catalog-item-info-column-link-book {
+  background-color: #766357;
+}
+
+.catalog-item-info-column-link-book:hover {
+background-color: #604e43;
+}
+
+.catalog-item-info-column-link-book:active {
+  background-color: #503e33;
+  color: rgba(255, 255, 255, 0.3);
+}
 
 
+.catalog-item-info-row-name .catalog-item-info-column {
+padding-bottom: 20px;
+color: #333333;
+}
+
+
+
+.catalog-extra-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.catalog-extra-info__rate {
+    background: #f2f2f2;
+    padding: 5px 13px 6px 16px;
+}
+
+.catalog-item-image {
+  margin-right: 30px;
+}
+
+.main-footer-social-link {
+background-color: #81b3d2;
+width: 46px;
+height: 48px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main-footer-social-img {
+  
+}
+
+.main-footer-social-img-twitter {
+width: 17px;
+height: 15px
+  
+}
+
+.main-footer-social-img-facebook {
+width: 12px;
+height: 22px;
+}
+
+.main-footer-social-img-youtube {
+width: 20px;
+height: 16px;
+}
